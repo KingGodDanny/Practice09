@@ -18,21 +18,22 @@ public class FriendApp {
          
              for(int i=0; i<3; i++) {
             	 
-            	 
+            	 //" "로 자르는 코드
             	 String list = sc.nextLine();
             	 String[] listArray = list.split(" ");
  	            
-            	Friend f01 = new Friend(listArray);
-            	
-            	fList.add(f01);
-            	
- 
- 	          
- 	            
+            	 
+            	 String name = listArray[0];
+            	 String hp = listArray[1];
+            	 String school = listArray[2];
+            	 
+            	 
+            	Friend friend = new Friend(name, hp, school);
+            
+            	fList.add(friend);
  	            
          		}
              
-               
          
          // 친구정보 출력
          for (int i = 0; i < fList.size(); i++) {
