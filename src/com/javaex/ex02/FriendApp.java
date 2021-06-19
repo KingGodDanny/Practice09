@@ -1,6 +1,7 @@
 package com.javaex.ex02;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class FriendApp {
@@ -8,7 +9,7 @@ public class FriendApp {
     public static void main(String[] args) {
 
     	
-    	ArrayList<Friend> fList = new ArrayList<Friend>(); 
+    	List<Friend> fList = new ArrayList<Friend>(); 
     	
          Scanner sc = new Scanner(System.in);
 
